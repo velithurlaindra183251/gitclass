@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css tables</title>
+    <style>
+        #students {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #students td, #students th {
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+        #students th {
+            padding: 15px 0 15px 0;
+            text-align: left;
+            background-color: aqua;
+            color: darkgreen;
+        }
+
+        #students tr:nth-child(odd) {
+            background-color: cadetblue;
+        }
+
+        #students tr:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="students">
+        <tr>
+            <th>Name</th>
+            <th>Reg No</th>
+            <th>Year</th>
+            <th>Contact</th>
+        </tr>
+
+        <tr>
+            <td>Ganesh</td>
+            <td>183223</td>
+            <td>2019</td>
+            <td>6305600469</td>
+        </tr>
+
+        <tr>
+            <td>Narasimha</td>
+            <td>183230</td>
+            <td>2020</td>
+            <td>9405600470</td>
+        </tr>
+
+        <tr>
+            <td>Gaffar</td>
+            <td>183232</td>
+            <td>2021</td>
+            <td>9505600540</td>
+        </tr>
+
+        <tr>
+            <td>Sekhar</td>
+            <td>183244</td>
+            <td>2021</td>
+            <td>8405600460</td>
+        </tr>
+
+        <tr>
+            <td>Indra</td>
+            <td>183251</td>
+            <td>2022</td>
+            <td>8106499774</td>
+        </tr>
+    </table>
+</body>
+
+</html>
