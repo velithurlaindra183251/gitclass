@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css position</title>
+    <style>
+        .static {
+            position: static;
+            border: 5px solid green;
+            top: 40px;
+            right: 80px;
+            bottom: 120px;
+            left: 160px;
+            background-color: crimson;
+        }
+
+        .relative {
+            position: relative;
+            border: 4px solid red;
+            top: 50px;
+            right: 100px;
+            bottom: 150px;
+            left: 200px;
+            background-color: green;
+        }
+
+        .absolute {
+            position: absolute;
+            border: 6px solid orchid;
+            top: 40px;
+            right: 80px;
+            bottom: 120;
+            left: 160px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 100px;
+            border: 4px solid blue;
+        }
+
+        .fixed {
+            position: fixed;
+            border: 5px solid rebeccapurple;
+            bottom: 100px;
+            right: 80px;
+        }
+
+        body {
+            height: 2000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static">position static</div>    
+    <div class="relative">position relative
+        <div class="absolute">position absolute</div>
+    </div>
+
+    <div class="fixed">position fixed</div>
+    <div class="sticky">position sticky</div>
+</body>
+
+</html>
