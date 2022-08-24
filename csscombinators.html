@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css combinators</title>
+    <style>
+        div p {
+            background-color: rgb(238, 246, 246);
+        }
+
+        div > p {
+            background-color: rgb(255, 112, 17);
+        }
+
+        div + p {
+            background-color: rgb(131, 243, 20);
+        }
+
+        div ~ p {
+            background-color: #0a8d35;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> CSS Combinators</h1>
+    <div>
+        <p>div in the combinators 1 </p>
+        <p>div in the combinators 2 </p>
+        <p>div in the combinators 3 </p>
+        <p>div in the combinators 4 </p>
+
+        <article>
+            <p>div in the combinators 5 (article elements)</p>
+            <p>div in the combinators 6</p>
+        </article>
+
+    </div>
+    <p>div in the combinators 7</p>
+    <p>div in the combinators 8</p>
+    <p>div in the combinators 9</p>
+    <p>div in the combinators 10</p>
+</body>
+
+</html>
