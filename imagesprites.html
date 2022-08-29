@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css  sprites</title>
+    <style>
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    position: absolute;
+    padding: 0;
+    margin: o;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#navlist li, #navlist a {
+    display:block;
+    height:50px;
+}
+
+#home {
+    background: url("buttons.jpg");
+    width: 50px;
+}
+
+#prev {
+    background:url("buttons.jpg") ;
+    width:40px;
+    left:250px;
+    background-position: 90px;
+}
+
+#next {
+    background: url("buttons.jpg");
+    width: 40px;
+    left: 400px;
+    background-position: 50px;
+}
+</style>
+</head>
+<body>
+<ul id="navlist">
+    <li id="home"><a href="http://www.ajio.com" target="_blank"></a></li>
+    <li id="prev"><a href="http://www.myntra.com" target="_blank"></a></li>
+    <li id="next"><a href="http://www.meesho.com" target="_blank"></a></li>
+</ul>
+</body>
+</html>

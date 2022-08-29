@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css responsive</title>
+    <style>
+        .column {
+            width: 18%;
+            float: left;
+        }
+
+        /*mobile phones*/
+        @media only screen and (max-width:500px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        /*porutrait tablets*/
+        @media only screen and (min-width:501px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /*landscape tablets*/
+        @media only screen and (min-width:768px) {
+            .column {
+                width: 40%;
+            }
+        }
+
+        /* laptops,desktops*/
+        @media only screen and (min-width:992px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        /* big screens desktops and loptops*/
+        @media only screen and (min-width:1200px) {
+            .column {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column" style="background-color:red;">
+            <h2> responsive 1</h2>
+            <p>This is responsive</p>
+        </div>
+
+        <div class="column" style="background-color: green;">
+            <h2>responsive</h2>
+            <p>This is responsive</p>
+        </div>
+
+        <div class="column" style="background-color:orange;">
+            <h2>responsive</h2>
+            <p>This is responsive</p>
+        </div>
+
+        <div class="column" style="background-color:blue;">
+            <h2>responsive</h2>
+            <p>This is responsive</p>
+        </div>
+</body>
+
+</html>

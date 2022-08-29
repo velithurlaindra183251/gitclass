@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>css zindex</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .div1 {
+            position: relative;
+            border: 3px solid green;
+            height: 100px;
+            background-color: orange;
+            z-index: -1;
+        }
+
+        .div2 {
+            position: absolute;
+            border: 3px solid red;
+            height: 50;
+            top: 30px;
+            left: 50px;
+            width: 40px;
+            z-index: 2;
+            background-color: greenyellow;
+        }
+
+        .div3 {
+            position: absolute;
+            border: 3px solid rgb(87, 20, 243);
+            height: 100px;
+            top: 50px;
+            width: 80px;
+            z-index: 1;
+            background-color: rgb(255, 0, 128);
+        }
+
+        .container2 {
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 0px;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1">div 1</div>
+        <div class="div2">div 2</div>
+        <div class="div3">div 3</div>
+    </div><br>
+    <div class="container 2">
+        <h1> Today class is z-index concept </h1>
+        <img src="download.jpg" height="200" width="250" />
+        <p>Rohit Gurunath Sharma (born 30 April 1987) is an Indian international cricketer who is the
+            current captain of the Indian national team. He is a right-handed opening batsman, and an occasional
+            right-arm
+            off break bowler. He plays for Mumbai in domestic cricket. He captains Mumbai Indians in the Indian Premier
+            League and they have won the tournament a record five times under his leadership.</p>
+    </div>
+</body>
+
+</html>
