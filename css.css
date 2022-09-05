@@ -1,0 +1,14 @@
+:root {
+    --red:red;
+    --blue:blue;
+}
+
+:root {
+    --green:rgb(85, 128, 0);
+    --yellow:yellow;
+}
+
+:root {
+    --orange:orange;
+    --aqua:aqua;
+}

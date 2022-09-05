@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chaset="UTF-8">
+    <meta http-eqciv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.5">
+    <title>pagenation</title>
+    <style>
+        #pagenation {
+            position: relative;
+            top: 120px;
+            text-align: center;
+        }
+
+        #pagenation a {
+            padding: 8px 12px;
+            border: 2px;
+            border-bottom: 12px;
+            text-decoration: none;
+            box-shadow: 3px 4px 5px red;
+        }
+
+        #pagenation a.active {
+            color: rgb(154, 21, 3);
+            background-color: rgb(231, 231, 144);
+        }
+
+        #pagenation a:hover {
+            color: coral;
+            text-decoration: underline;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="pagenation">
+        <a href="#">&larr; previous </a>
+        <a href="#">1</a>
+        <a href="#"class="active" >2</a>
+        <a href="#">3</a>
+        <a href="#"class="active">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#" class="active">7</a>
+        <a href="#">8</a>
+        <a href="#">9</a>
+        <a href="#"class="active">10</a>
+        <a href="#">&rarr;next</a>
+    </div>
+</body>
+</html>
